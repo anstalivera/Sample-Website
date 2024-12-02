@@ -1,0 +1,77 @@
+main{
+    width: 1000px;
+    padding:0px 20px;
+    float:left
+}
+aside{
+    width:300px;
+    float:left;
+    
+}
+
+footer{
+    clear:both;
+}
+aside h2{
+    text-align:center;
+    background-color: antiquewhite;
+    color:brown;
+    padding:10px;
+    
+}
+main h2{
+    text-align:center;
+    color:brown;
+}
+
+fieldset{
+    width:390px;
+    padding:8px;
+    margin:10px;
+    border:2px solid brown;
+    float:left;
+}
+
+fieldset div{
+    padding:5px 10px;
+}
+fieldset div label{
+    display:inline-block;
+    width: 100px;
+}
+input{
+    width:200px;
+}
+form section{
+    clear:both;
+}
+
+textarea{
+    width:202px;
+}
+
+input[type="date"]{
+    width:204px;
+}
+
+select{
+    width:207px;
+}
+fieldset:nth-child(1), fieldset:nth-child(2){
+    height:180px;
+}
+fieldset:nth-child(3), fieldset:nth-child(4){
+    height:100px;
+}
+
+input[type=radio], input[type=checkbox]{
+    width:20px;
+}
+
+input[type=submit]{
+    width:100px;
+    padding:5px;
+    color:white;
+    font-weight: bold;
+    background-color: brown;
+}

@@ -1,0 +1,23 @@
+.skillsMain{
+    margin:0px 150px;
+}
+.skillsMain table{
+    width: 896px;
+    font-size: 1.5em;
+}
+.skillsMain table, .skillsMain td, .skillsMain th{
+    border:2px solid rgb(165,163,163);
+    border-collapse: collapse;
+
+}
+.skillsMain th, .skillsMain td{
+    padding:20px 10px;
+}
+.skillsMain th{
+    text-align: left;
+    background-color: rgb(219,214,214);
+}
+.skillsMain table tbody tr td:nth-child(2){
+    color:rgb(245, 245, 80);
+    font-size: 1.5em;
+}
